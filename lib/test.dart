@@ -1,8 +1,8 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:patroli/Wigeds/mytextform.dart';
-import 'package:patroli/Cloud_Services/ads_manger.dart';
+import 'package:patrolin/Cloud_Services/ads_manger.dart';
+import 'package:patrolin/Wigeds/mytextform.dart';
 
 class SecondMeter extends StatefulWidget {
   const SecondMeter({super.key});
@@ -118,82 +118,6 @@ class _HomepageState extends State<SecondMeter> {
   }
 
   void _updatePetrolPrice() {
-    showDialog(
-      context: context,
-      builder: (context) {
-        TextEditingController newPriceController = TextEditingController();
-
-        return Dialog(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8.0),
-          ),
-          child: Container(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Text(
-                  'Update Petrol Price',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                ),
-                const SizedBox(
-                  height: 12,
-                ),
-                TextField(
-                  controller: newPriceController,
-                  keyboardType:
-                      const TextInputType.numberWithOptions(decimal: true),
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    hintText: 'Enter new petrol price',
-                  ),
-                ),
-                const SizedBox(height: 20.0), // Increase the height as needed
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      child: const Text(
-                        'Cancel',
-                        style: TextStyle(color: Colors.redAccent),
-                      ),
-                    ),
-                    TextButton(
-                      onPressed: () {
-                        // Update petrol price from the dialog
-                        price =
-                            double.tryParse(newPriceController.text) ?? price;
-
-                        // Clear the new petrol price text field
-                        newPriceController.clear();
-
-                        // Update UI
-                        setState(() {});
-
-                        // Close the dialog
-                        Navigator.pop(context);
-                      },
-                      child: const Text(
-                        'Update',
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
-
-  void _updatePrice() {
     showDialog(
       context: context,
       builder: (context) {

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:patroli/Pages/first_page.dart';
+import 'package:patrolin/Pages/first_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
-  runApp(const Petroli());
+  runApp(const Petrolin());
 }
 
-class Petroli extends StatelessWidget {
-  const Petroli({super.key});
+class Petrolin extends StatelessWidget {
+  const Petrolin({super.key});
 
   @override
   Widget build(BuildContext context) {

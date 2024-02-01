@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:patroli/Pages/first_page.dart';
-import 'package:patroli/Pages/second_page.dart';
+import 'package:patrolin/Pages/first_page.dart';
+import 'package:patrolin/Pages/second_page.dart';
 import 'package:share_plus/share_plus.dart';
 
 class MyDrower extends StatelessWidget {
