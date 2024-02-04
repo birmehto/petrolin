@@ -2,7 +2,7 @@
 
 Petrolin is a handy tool crafted specifically for petrol pump workers, streamlining their daily calculations effortlessly. With this app, workers can swiftly determine the total cash amount for the day's transactions, making their job more efficient and accurate. Say goodbye to manual calculations and hello to Petrolin – the ultimate companion for petrol pump professionals. 
 
-#Screenshorts
+# Screenshorts
 
 ![WhatsApp Image 2024-02-04 at 9 07 07 PM (2)](https://github.com/birmehto/petrolin/assets/128910597/46c0e688-f4fa-4f1a-9ba2-e726eeb0f1a2)
 ![WhatsApp Image 2024-02-04 at 9 07 07 PM (1)](https://github.com/birmehto/petrolin/assets/128910597/6e8b30c4-4bcf-4cea-a99b-560fe66ba023)
